@@ -1,7 +1,7 @@
 name: PR Map
 on:
   pull_request:
-  branches: [main, satish_dev]
+    branches: [main, satish_dev]
 jobs:
   Pull Request Check:
     runs-on: ubuntu-latest

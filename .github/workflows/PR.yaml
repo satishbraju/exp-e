@@ -1,0 +1,11 @@
+name: PR Map
+on:
+  pull_request:
+  branches: [main, satish_dev]
+jobs:
+  Pull Request Check:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Pull submodule dependencies
+      uses: ivanbakel/submodule-dependency@v0.1.2.1
